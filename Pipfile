@@ -5,8 +5,21 @@ name = "pypi"
 
 [packages]
 django = "*"
+flake8 = "*"
+black = "*"
+pillow = "*"
+django-cors-headers = "*"
+gunicorn = "*"
+whitenoise = "*"
+dj-database-url = "*"
+psycopg2-binary = "*"
 
 [dev-packages]
+black = "*"
+flake8 = "*"
 
 [requires]
 python_version = "3.9"
+
+[pipenv]
+allow_prereleases = true
