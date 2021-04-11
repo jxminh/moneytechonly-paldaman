@@ -1,1 +1,1 @@
-web: gunicorn django-paldaman.wsgi
+web: gunicorn paldaman.wsgi
