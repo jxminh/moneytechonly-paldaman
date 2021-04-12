@@ -27,13 +27,11 @@ SECRET_KEY = os.environ.get(
     'DJANGO_SECRET_KEY', '!7tew$1&vco&jh26=o*p!55vye5k$vlb^htm&0=00tdk4xi&$4')
 # https://www.daleseo.com/python-os-environ/
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
 # Application definition
-
 DJANGO_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
