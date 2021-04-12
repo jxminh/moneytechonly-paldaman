@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get(
     'DJANGO_SECRET_KEY', '!7tew$1&vco&jh26=o*p!55vye5k$vlb^htm&0=00tdk4xi&$4')
 # https://www.daleseo.com/python-os-environ/
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     'django-paldaman.herokuapp.com',
