@@ -1,2 +1,2 @@
-web: gunicorn config.wsgigi
+web: gunicorn config.wsgi
 #web: gunicorn django-paldaman.wsgigi
