@@ -29,7 +29,18 @@ SECRET_KEY = os.environ.get(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'django-paldaman.herokuapp.com',
+    'paldaman.herokuapp.com',
+    'www.paldaman.com',
+    'www.paldaman.shop',
+    'www.moneytechonly.com',
+    'www.moneytechonly.shop',
+    'www.moneytechonly.co.kr',
+    'www.jubudj.com',
+    'www.jubudj.shop',
+    'www.jubudj.co.kr',
+]
 
 # Application definition
 DJANGO_APPS = [
