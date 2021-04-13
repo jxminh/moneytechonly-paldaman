@@ -39,6 +39,7 @@ ALLOWED_HOSTS = [
     'www.jubudj.com',
     'www.jubudj.shop',
     'www.jubudj.co.kr',
+    'www.jubudj.kr',
     '127.0.0.1',
 ]
 
